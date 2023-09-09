@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-*main entry point of the programm
-*time.h-sets a seed to generate random values
-*return is set to zero as success
-*/
+/**
+ * main - where the program starts
+ * Return: end of program execution
+ */
 #include <stdlib.h>
 int main(void)
 {
