@@ -2,17 +2,16 @@
 
 /**
  * main - where the program starts
- *
+ *char 
  * Return: where program ends
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char alphabet;
 
-	for (i = 0; i < 26; i++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(alp[i]);
+		putchar(alphabet);
 	}
 	putchar('\n');
 	return (0);
