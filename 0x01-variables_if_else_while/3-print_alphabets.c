@@ -8,9 +8,12 @@ int main(void)
 {
 	char upperCase;
 	char lowerCase;
-	for (upperCase = 'A', lowerCase = 'a'; upperCase <= 'Z' && lowerCase <= 'z'; upperCase++, lowerCase++)
+	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 	{
 		putchar(lowerCase);
+	}
+	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
+	{
 		putchar(upperCase);
 	}
 	putchar('\n');
