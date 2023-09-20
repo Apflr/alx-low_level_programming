@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints out alphabet from a to z 10 times
- * print_alphabet_x10 prints out alpahabets
+ * print_alphabet_x10 - prints out alpahabets
  * Return: end of progragram
  */
 void print_alphabet_x10(void)
