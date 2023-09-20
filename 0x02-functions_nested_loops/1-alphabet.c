@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- * main - prints out characters
  * print_alphabet - function that prints characters
  * Return - end of execution
  */
